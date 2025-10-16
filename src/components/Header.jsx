@@ -89,7 +89,7 @@ export default function Navbar() {
           className="md:hidden absolute top-full left-0 w-full flex flex-col items-center gap-6 py-6 font-medium transition-all duration-300"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.95)", color: "#E5E5E5" }}
         >
-          {["About", "Classes", "Pricing", "Locations"].map((item) => (
+          {["About", "Classes", "Team", "Locations"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
